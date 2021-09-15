@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+
+/*          바디                     */
+body {
+	background-color: #DEDEDE;
+}
+
+header {
+	list-style-type: none;
+}
+
+/*           로고                       */
+.logo h1 {
+	padding: 40px;
+}
+
+.logo a {
+	color: black;
+}
+
+/*        로그인 회원가입           */
+.nav1 ul {
+	float: right;
+	list-style-type: none;
+	margin: 0 200px 0 0px;
+}
+
+.loginmenu li a {
+	background-color: #gray;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+/*        dropmenu ul      */
+#dropmenu ul {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-size: 19px;
+	position: absolute;
+}
+
+/*       dropmenu li       */
+#dropmenu li {
+	float: left;
+	position: relative;
+	left: 202px;
+	list-style: none;
+	margin: 0 0 0 0;
+	padding: 0;
+	text-align: center;
+}
+
+#dropmenu ul li a:hover {
+	color: pink;
+	background-color: #4d4d4d;
+}
+
+/*    dropmenu ul li a     */
+#dropmenu ul li a {
+	display: block;
+	width: 275px;
+	height: 58px;
+	text-align: center;
+	padding-top: 10px;
+	color: #fff;
+	line-height: 50px;
+	background: #371400;
+}
+
+#reservation ul li a {
+	display: none;
+}
+
+
+.rooms{
+	position: absolute;
+	left:-202px;
+}  
+
+footer {
+	cursor: pointer;
+	position: left;
+	clear: both;
+	color: #ffffff;
+	background-color: #371400;
+	text-align: center;
+	height: 110px;
+	line-height: 5px;
+	font-size: 80%;
+	margin-left: -100%;
+	margin-right: -100%;
+	padding: 20px;
+}

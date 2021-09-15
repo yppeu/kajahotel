@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: 'Chosunilbo_myungjo';
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff')
+		format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*바디 */
+body {
+	background-color: #DEDEDE;
+	font-family: 'Chosunilbo_myungjo';
+	margin: 0;
+	padding: 0;
+}
+
+/*로고*/
+.logo h1 {
+	padding: 30px;
+	font-size: 40px;
+	color: black;
+}
+
+
+/*로그인 회원가입*/
+.nav1 ul {
+	display: block;
+	text-align: right;
+	list-style-type: none;
+	margin: 0 200px 0 0px;
+	right: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#dropmenu {
+	position: relative;
+	z-index: 1;
+}
+
+#dropmenu ul {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	line-height: 58px;
+
+}
+
+#dropmenu li {
+	width: 375px;
+	float: left;
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.info {
+	position:relative;
+
+}
+
+.rooms {
+	position: absolute;
+
+}
+
+.rooms li {
+
+}
+
+.rooms a {
+	width:375px;
+}
+
+#dropmenu ul li a:hover {
+	color: pink;
+	background-color: #4d4d4d;
+}
+
+#dropmenu li a {
+	display: block; 
+	height : 58px;
+	text-align: center;
+	padding-top: 10px;
+	color: #fff;
+	line-height: 50px;
+	background: #371400;
+	font-size: 19px;
+}

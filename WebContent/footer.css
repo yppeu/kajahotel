@@ -1,0 +1,13 @@
+@charset "EUC-KR";
+
+footer {
+	position: left;
+	color: #ffffff;
+	background-color: #371400;
+	text-align: center;
+	height: 110px;
+	line-height: 5px;
+	font-size: 80%;
+
+	padding: 20px;
+}

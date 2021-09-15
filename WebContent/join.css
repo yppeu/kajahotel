@@ -1,0 +1,49 @@
+@charset "EUC-KR";
+
+html, body, div, dl, dt, dd, ul, ol, li, h2, h3, h4, h5, h6, pre, code,
+	form, fieldset, legend, input, textarea, blockquote, th, td, img {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0 auto;
+	display: inline-block font-size: 13px;
+	color: #101010;
+	text-align: center;
+}
+
+
+table, tr, th, td{
+	border : 1px solid gray;
+  	border-collapse : collapse;
+    padding : 2em;
+}
+
+#contents {
+	width: 100%;
+	text-align: center;
+	margin: 150px 0 80px 0;
+}
+
+#contents2 {
+	display: inline-block;
+	text-align: center;
+}
+
+.contents span {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	text-align: center;
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+}
+
+.submit{
+	margin:20px;
+}
